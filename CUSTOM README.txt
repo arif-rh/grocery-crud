@@ -11,3 +11,9 @@ This is my customization:
    because sometime we need to show currency in right alignment, 
    and another column shown in center alignment.
    You can see documentation and example about this in the commit notes.
+
+2. Adding New Function : get_real_fields()
+
+   This function use to check whether column is real or fake by callback_column
+   to avoid error unknown column when used for searching
+   Update examples to show what that means.
